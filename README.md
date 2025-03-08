@@ -50,7 +50,7 @@ Then add this to e.g. your `~/.profile`:
 
 ```bash
 changelogger () {
-  docker run --rm -it -v $(PWD):/app changelogger changelogger $@
+  docker run --rm -it -v $(PWD):/app churchtools/changelogger changelogger $@
 }
 ```
 
